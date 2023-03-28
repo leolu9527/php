@@ -55,8 +55,7 @@ final class ContainerBuilder
     public static function defaultExtensions(): array
     {
         return [
-            \Leolu9527\App\GreeterInterface::class => \Leolu9527\App\Greeter::class,
-            \Leolu9527\App\Greeting::class => \Leolu9527\App\Greeting::class,
+            
         ];
     }
 
