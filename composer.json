@@ -1,0 +1,26 @@
+{
+    "name": "leolu9527/php",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Leolu9527\\": "src/",
+            "Leolu9527\\Test\\UnitTest\\": "tests/Unit/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Leo Lu"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "psr/container": "^2.0"
+    },
+    "provide": {
+        "psr/container-implementation": "1.1|2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.6"
+    }
+}
